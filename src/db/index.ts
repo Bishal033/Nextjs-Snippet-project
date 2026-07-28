@@ -1,6 +1,6 @@
-import { PrismaClient } from '@prisma/client';
+import { PrismaClient } from "@/generated/prisma/client";
 
-export const db =  new PrismaClient();
+export const db = new PrismaClient();
 
 db.snippet.create({
     data: {
